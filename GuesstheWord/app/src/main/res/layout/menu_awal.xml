@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAwal"
+    android:id="@+id/menu_awal">
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/judul_menu2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"/>
+            <ImageView
+                android:src="@drawable/logo_game"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-25dp"/>
+            <ImageView
+                android:src="@drawable/splash_judul"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-40dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnplay"
+                    android:text="PLAY"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btnplay"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="play"/>
+                <Button
+                    android:id="@+id/btnabout"
+                    android:text="ABOUT"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btnabout"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="about" />
+                <Button
+                    android:id="@+id/btnexit"
+                    android:text="EXIT"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btnexit"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="keluar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
